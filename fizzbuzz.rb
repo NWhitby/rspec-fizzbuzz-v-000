@@ -3,9 +3,12 @@
 def fizzbuzz(int)
    if int % 3 == 0
      "Fizz"
+
    elsif int % 5 == 0
      "Buzz"
-   else
+
+   else int % 3
+
   end
 end
 fizzbuzz(3)
